@@ -90,6 +90,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/photo-gallery/";
         
       },
+    },{id: "post-revolutionizing-tabular-data-analysis-with-gpt-models",
+      
+        title: "Revolutionizing Tabular Data Analysis with GPT Models",
+      
+      description: "Exploring innovative approaches to overcome challenges in GPT model applications for tabular data decision-making",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/ai-tabular-data-revolution/";
+        
+      },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -431,25 +442,25 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-currently-focused-on-azure-cognitive-services-integration-developing-intelligent-systems-that-process-and-extract-information-from-diverse-forms-and-documents-out-post-date-2016-01-15-07-59-00-0400-inline-true-related-posts-false-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: '🎯 Currently focused on Azure Cognitive Services integration, developing intelligent systems that process...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-innovative-ai-ml-solutions-development",
+          title: 'Innovative AI/ML Solutions Development',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-welcome-to-my-new-professional-website-showcasing-my-expertise-in-ai-ml-tabular-data-analysis-and-azure-cognitive-services-excited-to-share-my-journey-and-connect-with-fellow-innovators-out-post-date-2015-10-22-15-59-00-0400-inline-true-related-posts-false-a-simple-inline-announcement",
+          title: '🚀 Welcome to my new professional website! Showcasing my expertise in AI/ML, tabular...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-gpt-based-tabular-data-analysis-system",
+          title: 'GPT-Based Tabular Data Analysis System',
+          description: "Revolutionary approach to tabular data decision-making using advanced AI techniques",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-azure-cognitive-services-integration-platform",
+          title: 'Azure Cognitive Services Integration Platform',
+          description: "Intelligent document processing using Form Recognizer and Vision AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
@@ -492,14 +503,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%61%73%68%75%74%6F%73%68%73%6F%6D%76%61%6E%73%68%69%35@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/ashutoshsom1", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/ashutoshsomvanshi1", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182", "_blank");
         },
       },{
         id: 'social-rss',
@@ -507,13 +532,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
