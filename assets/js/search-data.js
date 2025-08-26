@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Comprehensive overview of my professional journey as an AI/ML Engineer and Data Analyst, specializing in innovative solutions for tabular data analysis, invoice management systems, and Azure Cognitive Services integration.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
