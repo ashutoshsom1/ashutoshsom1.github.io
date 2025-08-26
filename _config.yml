@@ -7,14 +7,15 @@ first_name: Ashutosh
 middle_name:  
 last_name: Somvanshi
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out via email or connect with me on LinkedIn for collaboration opportunities.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  AI/ML Engineer & Data Analyst specializing in innovative solutions for tabular data analysis, 
+  invoice management systems, and Azure Cognitive Services. Passionate about leveraging cutting-edge 
+  technologies to drive efficiency and unlock valuable insights.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: artificial intelligence, machine learning, data analysis, Azure, GPT models, computer vision, tabular data, automation # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -87,8 +88,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: AI & Data Science Insights # blog_name will be displayed in your blog page
+blog_description: Exploring innovations in AI, machine learning, and data analysis
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

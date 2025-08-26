@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ashutoshsom1
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
+  - ashutoshsom1/ashutoshsom1.github.io
   - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons

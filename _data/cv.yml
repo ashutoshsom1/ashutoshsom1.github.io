@@ -2,96 +2,108 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Ashutosh Somvanshi
+    - name: Email
+      value: ashutoshsomvanshi5@gmail.com
     - name: Languages
-      value: English, German
+      value: English, Hindi
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182/">ashutosh-somvanshi-5233b9182</a>
+    - name: GitHub
+      value: <a href="https://github.com/ashutoshsom1">ashutoshsom1</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Engineering (Computer Science)
+      institution: Computer Science Engineering
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Specialized in Computer Science and Engineering with focus on software development
+        - Gained expertise in algorithms, data structures, and software engineering principles
+        - Developed strong foundation in programming languages and system design
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI/ML Engineer & Data Analyst
+      institution: Freelance/Consulting
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Developing innovative solutions for tabular data analysis using GPT models
+        - Creating advanced invoice management systems with OCR and pattern matching
+        - Leveraging Azure Cognitive Services (Form Recognizer, Vision AI) for automation
+        - Building intelligent classification models for document processing
+        - Collaborating with clients to streamline business processes through AI
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python
+        - JavaScript
+        - C++
+        - SQL
+    - title: AI/ML Technologies
       items:
-        - Description 1.
-        - Description 2.
+        - GPT Models and Large Language Models
+        - Machine Learning Algorithms
+        - Natural Language Processing
+        - Computer Vision
+        - OCR and Pattern Recognition
+    - title: Cloud & Platforms
+      items:
+        - Microsoft Azure
+        - Azure Cognitive Services
+        - Form Recognizer
+        - Vision AI
+    - title: Development Tools
+      items:
+        - Git & GitHub
+        - Node.js
+        - React
+        - MySQL
+        - Data Analysis Libraries
 
-- title: Other Interests
+- title: Key Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/ashutoshsom1">GPT-Based Tabular Data Analysis System</a>
+      year: 2024
+      description: Revolutionary approach to tabular data decision-making using GPT models with advanced preprocessing and feature engineering
+    - title: Intelligent Invoice Management Platform
+      year: 2023-2024
+      description: Advanced system for invoice classification, OCR processing, and automated data extraction with high accuracy rates
+    - title: Azure Cognitive Services Integration
+      year: 2023-2024
+      description: Developed intelligent document processing solutions using Form Recognizer and Vision AI for enhanced automation
+
+- title: Core Competencies
+  type: nested_list
+  contents:
+    - title: Artificial Intelligence & Machine Learning
+      items:
+        - GPT Model Implementation and Optimization
+        - Tabular Data Analysis and Processing
+        - Feature Engineering and Preprocessing
+        - Model Training and Validation
+    - title: Data Processing & Analysis
+      items:
+        - OCR and Pattern Recognition
+        - Document Classification
+        - Data Extraction and Validation
+        - Business Intelligence Solutions
+    - title: Cloud & Integration
+      items:
+        - Azure Cognitive Services
+        - API Development and Integration
+        - Scalable Solution Architecture
+        - Automation Pipeline Development
+
+- title: Professional Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Focus Areas:</u> Artificial Intelligence, Machine Learning, Data Science, Automation, Cloud Computing
+    - <u>Research Interests:</u> GPT Model Applications, Tabular Data Processing, Document Intelligence, Computer Vision
+    - <u>Future Goals:</u> Contributing to open source AI projects, Advanced research in ML applications, Building scalable AI solutions
