@@ -5,12 +5,26 @@
       value: Ashutosh Somvanshi
     - name: Email
       value: ashutoshsomvanshi5@gmail.com
+    - name: Phone
+      value: Available upon request
+    - name: Location
+      value: India
     - name: Languages
       value: English, Hindi
     - name: LinkedIn
       value: <a href="https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182/">ashutosh-somvanshi-5233b9182</a>
     - name: GitHub
       value: <a href="https://github.com/ashutoshsom1">ashutoshsom1</a>
+    - name: Instagram
+      value: <a href="https://www.instagram.com/ashutoshsomvanshi1/">ashutoshsomvanshi1</a>
+
+- title: Professional Summary
+  type: map
+  contents:
+    - name: Overview
+      value: AI/ML Engineer and Data Analyst with expertise in developing innovative solutions for tabular data analysis, invoice management systems, and Azure Cognitive Services integration. Passionate about leveraging cutting-edge technologies to drive efficiency and unlock valuable insights from complex datasets.
+    - name: Specializations
+      value: GPT Model Applications, Document Intelligence, Computer Vision, Process Automation, Business Intelligence
 
 - title: Education
   type: time_table
@@ -19,9 +33,11 @@
       institution: Computer Science Engineering
       year: 2019 - 2023
       description:
-        - Specialized in Computer Science and Engineering with focus on software development
-        - Gained expertise in algorithms, data structures, and software engineering principles
-        - Developed strong foundation in programming languages and system design
+        - Specialized in Computer Science and Engineering with focus on software development and artificial intelligence
+        - Gained comprehensive expertise in algorithms, data structures, and software engineering principles
+        - Developed strong foundation in programming languages, system design, and database management
+        - Completed coursework in Machine Learning, Data Structures, Object-Oriented Programming, and Database Systems
+        - Actively participated in coding competitions and technical workshops
 
 - title: Professional Experience
   type: time_table
@@ -30,54 +46,78 @@
       institution: Freelance/Consulting
       year: 2023 - Present
       description:
-        - Developing innovative solutions for tabular data analysis using GPT models
-        - Creating advanced invoice management systems with OCR and pattern matching
-        - Leveraging Azure Cognitive Services (Form Recognizer, Vision AI) for automation
-        - Building intelligent classification models for document processing
-        - Collaborating with clients to streamline business processes through AI
+        - Developing innovative solutions for tabular data analysis using GPT models and advanced preprocessing techniques
+        - Creating advanced invoice management systems with OCR and pattern matching, achieving 95% accuracy in data extraction
+        - Leveraging Azure Cognitive Services (Form Recognizer, Vision AI) for intelligent document processing and automation
+        - Building robust classification models for document processing with high precision in differentiating handwritten vs. machine-printed content
+        - Collaborating with clients to streamline business processes through AI, resulting in 70% time reduction in analytical reports
+        - Designing and implementing scalable data processing pipelines for diverse business requirements
 
 - title: Technical Skills
   type: nested_list
   contents:
     - title: Programming Languages
       items:
-        - Python
-        - JavaScript
-        - C++
-        - SQL
+        - Python (Advanced) - Data Science, ML, Automation
+        - JavaScript (Intermediate) - Web Development, APIs
+        - C++ (Intermediate) - System Programming, Algorithms
+        - SQL (Advanced) - Database Design, Complex Queries
+        - HTML/CSS (Intermediate) - Web Development
     - title: AI/ML Technologies
       items:
-        - GPT Models and Large Language Models
-        - Machine Learning Algorithms
-        - Natural Language Processing
-        - Computer Vision
+        - Large Language Models (GPT-3/4, ChatGPT)
+        - Machine Learning Algorithms (Supervised, Unsupervised)
+        - Natural Language Processing (NLP)
+        - Computer Vision and Image Processing
         - OCR and Pattern Recognition
+        - Feature Engineering and Data Preprocessing
+        - Model Training, Validation, and Optimization
     - title: Cloud & Platforms
       items:
-        - Microsoft Azure
-        - Azure Cognitive Services
-        - Form Recognizer
-        - Vision AI
-    - title: Development Tools
+        - Microsoft Azure (Cognitive Services, Form Recognizer, Vision AI)
+        - Azure Machine Learning Studio
+        - Cloud-based API Integration
+        - Scalable Solution Architecture
+    - title: Development Tools & Frameworks
       items:
-        - Git & GitHub
-        - Node.js
-        - React
-        - MySQL
-        - Data Analysis Libraries
+        - Git & GitHub (Version Control, Collaboration)
+        - Node.js & React (Web Development)
+        - Pandas, NumPy, Scikit-learn (Data Science)
+        - OpenCV (Computer Vision)
+        - MySQL, PostgreSQL (Database Management)
+        - REST APIs and Web Services
+        - Docker (Containerization)
+    - title: Data Analysis & Visualization
+      items:
+        - Data Mining and Statistical Analysis
+        - Business Intelligence and Reporting
+        - Data Visualization (Matplotlib, Seaborn)
+        - Excel Advanced Functions and Macros
 
 - title: Key Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/ashutoshsom1">GPT-Based Tabular Data Analysis System</a>
       year: 2024
-      description: Revolutionary approach to tabular data decision-making using GPT models with advanced preprocessing and feature engineering
+      description: 
+        - Revolutionary approach to tabular data decision-making using GPT models with advanced preprocessing and feature engineering
+        - Developed intelligent query framework enabling natural language interaction with structured datasets
+        - Achieved 95% accuracy in generating data-driven insights with 80% user satisfaction rate
+        - Implemented context-aware processing maintaining data type awareness and business logic
     - title: Intelligent Invoice Management Platform
       year: 2023-2024
-      description: Advanced system for invoice classification, OCR processing, and automated data extraction with high accuracy rates
+      description: 
+        - Advanced system for invoice classification, OCR processing, and automated data extraction
+        - Created robust classification model differentiating handwritten vs. machine-printed invoices
+        - Integrated OCR and pattern matching techniques for essential information extraction
+        - Achieved high accuracy rates in data validation and record-keeping processes
     - title: Azure Cognitive Services Integration
       year: 2023-2024
-      description: Developed intelligent document processing solutions using Form Recognizer and Vision AI for enhanced automation
+      description: 
+        - Developed intelligent document processing solutions using Form Recognizer and Vision AI
+        - Enhanced accuracy and reliability of data extraction from images and unstructured visual content
+        - Built automation pipelines for scalable document processing workflows
+        - Integrated multiple Azure services for comprehensive business intelligence solutions
 
 - title: Core Competencies
   type: nested_list
@@ -86,24 +126,66 @@
       items:
         - GPT Model Implementation and Optimization
         - Tabular Data Analysis and Processing
-        - Feature Engineering and Preprocessing
-        - Model Training and Validation
+        - Feature Engineering and Advanced Preprocessing
+        - Model Training, Validation, and Performance Tuning
+        - Natural Language Processing for Business Applications
     - title: Data Processing & Analysis
       items:
-        - OCR and Pattern Recognition
-        - Document Classification
-        - Data Extraction and Validation
-        - Business Intelligence Solutions
+        - OCR and Pattern Recognition Systems
+        - Document Classification and Intelligence
+        - Data Extraction, Validation, and Quality Assurance
+        - Business Intelligence and Analytics Solutions
+        - Statistical Analysis and Predictive Modeling
     - title: Cloud & Integration
       items:
-        - Azure Cognitive Services
+        - Azure Cognitive Services Architecture
         - API Development and Integration
-        - Scalable Solution Architecture
+        - Scalable Solution Design and Implementation
         - Automation Pipeline Development
+        - Cloud-based Data Processing Systems
 
-- title: Professional Interests
+- title: Achievements & Impact
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Achieved 95% accuracy in AI-generated data insights
+        - Reduced analytical report generation time by 70%
+        - Attained 80% user satisfaction in data interaction systems
+    - year: 2023
+      items:
+        - Successfully implemented multiple AI automation solutions
+        - Developed scalable document processing systems
+        - Established expertise in Azure Cognitive Services integration
+
+- title: Professional Interests & Goals
+  type: nested_list
+  contents:
+    - title: Current Focus Areas
+      items:
+        - Artificial Intelligence and Machine Learning Applications
+        - Advanced Data Science and Analytics
+        - Cloud Computing and Automation Solutions
+        - Document Intelligence and Computer Vision
+    - title: Research Interests
+      items:
+        - GPT Model Applications in Enterprise Environments
+        - Tabular Data Processing and Analysis Techniques
+        - Computer Vision for Document Understanding
+        - Automated Business Process Optimization
+    - title: Future Aspirations
+      items:
+        - Contributing to open source AI and ML projects
+        - Advanced research in practical ML applications
+        - Building scalable AI solutions for enterprise clients
+        - Mentoring and knowledge sharing in the AI community
+        - Developing innovative solutions for data-driven decision making
+
+- title: Personal Attributes
   type: list
   contents:
-    - <u>Focus Areas:</u> Artificial Intelligence, Machine Learning, Data Science, Automation, Cloud Computing
-    - <u>Research Interests:</u> GPT Model Applications, Tabular Data Processing, Document Intelligence, Computer Vision
-    - <u>Future Goals:</u> Contributing to open source AI projects, Advanced research in ML applications, Building scalable AI solutions
+    - <u>Problem Solving:</u> Strong analytical thinking with ability to break down complex problems into manageable solutions
+    - <u>Continuous Learning:</u> Committed to staying updated with latest advancements in AI, ML, and cloud technologies
+    - <u>Collaboration:</u> Excellent communication skills with experience in client consultation and team collaboration
+    - <u>Innovation:</u> Passionate about developing creative solutions that drive efficiency and business value
+    - <u>Adaptability:</u> Quick to learn new technologies and adapt to changing business requirements

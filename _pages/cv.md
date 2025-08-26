@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: # you can add a link to your PDF resume here
+description: Comprehensive overview of my professional journey as an AI/ML Engineer and Data Analyst, specializing in innovative solutions for tabular data analysis, invoice management systems, and Azure Cognitive Services integration.
 toc:
   sidebar: left
 ---
