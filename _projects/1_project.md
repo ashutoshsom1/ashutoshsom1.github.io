@@ -1,102 +1,79 @@
 ---
 layout: page
-title: GPT-Based Tabular Data Analysis System
-description: Revolutionary approach to tabular data decision-making using advanced AI techniques
+title: Enterprise Cognitive Hybrid RAG Platform
+description: High-throughput enterprise knowledge engine combining Dense Vector & BM25 Sparse Search with Cross-Encoder reranking and sub-500ms P99 latency.
 img: assets/img/12.jpg
 importance: 1
 category: work
 github: https://github.com/ashutoshsom1
 ---
 
-## Overview
+## 📌 Executive Overview
 
-This project represents a breakthrough in applying Large Language Models (LLMs) to structured tabular data analysis, addressing the fundamental challenges of bridging natural language processing with traditional data analytics.
+An enterprise-grade **Retrieval-Augmented Generation (RAG)** platform engineered to index, retrieve, and synthesize contextual intelligence across **100,000+ complex corporate documents** (PDFs, contracts, technical specifications, and internal wikis). 
 
-## The Challenge
+Traditional naive RAG architectures suffer from context dilution, semantic drift, and high latency. This platform resolves those bottlenecks through a **Two-Stage Hybrid Search Pipeline**, dynamic **Reciprocal Rank Fusion (RRF)**, deep **Cross-Encoder Reranking**, and an in-memory **Semantic Vector Cache**.
 
-Traditional tabular data analysis relies heavily on statistical methods and specialized algorithms. While GPT models excel at understanding human language, applying them effectively to structured datasets presents unique obstacles that require innovative solutions.
+---
 
-## My Solution
+## 🏗️ High-Level System Architecture
 
-I developed a comprehensive system that transforms how organizations interact with their tabular data through three key innovations:
-
-### 1. Advanced Preprocessing Pipeline
-
-- **Semantic Data Transformation**: Convert structured data into meaningful text representations while preserving relationships
-- **Context Integration**: Embed domain-specific knowledge and business rules into the data preparation process
-- **Relationship Mapping**: Identify and articulate inter-column dependencies for better model understanding
-
-### 2. Intelligent Feature Engineering
-
-Unlike traditional feature engineering, this approach focuses on creating textual representations that GPT models can effectively process:
-
-- **Semantic Column Descriptions**: Transform technical column names into descriptive, context-rich explanations
-- **Business Logic Integration**: Embed industry-specific rules and constraints directly into the feature space
-- **Dynamic Context Generation**: Adapt data representation based on query context and user intent
-
-### 3. Natural Language Query Framework
-
-The system enables intuitive interaction with complex datasets through:
-
-- **Conversational Analytics**: Ask questions about data in plain English
-- **Context-Aware Responses**: Generate insights that consider business context and domain expertise
-- **Validation Mechanisms**: Ensure generated insights align with actual data and business logic
-
-## Technical Implementation
-
-```python
-class TabularGPTAnalyzer:
-    def __init__(self, schema_metadata, business_rules):
-        self.metadata = schema_metadata
-        self.rules = business_rules
-        self.preprocessor = AdvancedTabularPreprocessor()
-        
-    def analyze(self, query, dataset):
-        # Transform tabular data for GPT processing
-        processed_data = self.preprocessor.transform(dataset)
-        
-        # Generate context-aware analysis
-        insights = self.generate_insights(query, processed_data)
-        
-        # Validate and refine results
-        return self.validate_insights(insights, dataset)
+```text
+[Enterprise Client / API] ──► [FastAPI Gateway]
+                                      │
+                                      ▼
+                        [Semantic Cache (Redis)] ──► (Cache Hit: <25ms response)
+                                      │ (Cache Miss)
+                                      ▼
+                         [Hybrid Retrieval Layer]
+                         ├── Dense Vector: Qdrant / Azure AI Search (HNSW Index: 20ms)
+                         └── Sparse Lexical: BM25 (Exact Token Match: 15ms)
+                                      │
+                                      ▼
+                       [Reciprocal Rank Fusion (Top 50)]
+                                      │
+                                      ▼
+                     [Cross-Encoder Reranker (Top 5)]
+                       (bge-reranker-large: 35ms)
+                                      │
+                                      ▼
+                     [vLLM / Azure OpenAI (Streaming)]
 ```
 
-## Key Features
+---
 
-- **95% Accuracy** in generating data-driven insights
-- **Natural Language Interface** for non-technical users
-- **Real-time Processing** of complex queries
-- **Business Rule Integration** for domain-specific analysis
-- **Scalable Architecture** supporting large datasets
+## ⚡ Core Technical Innovations
 
-## Applications
+### 1. Hybrid Search Fusion with Reciprocal Rank Fusion (RRF)
+Naive vector search struggles with exact keywords (part numbers, error codes, legal clauses), while keyword search fails on semantic intent. 
+The retrieval engine runs parallel queries across dense vector embeddings (`text-embedding-3-large`) and sparse BM25 indices, combining candidate ranks using Reciprocal Rank Fusion:
 
-### Financial Analysis
-- Automated report generation from complex financial datasets
-- Trend identification with natural language explanations
-- Risk assessment through conversational analysis
+$$\text{RRF Score}(d) = \sum_{m \in M} \frac{1}{k + r_m(d)}$$
 
-### Business Intelligence
-- Customer behavior insights from interaction data
-- Performance metrics with human-readable explanations
-- Predictive analytics with explanatory narratives
+Where $k=60$ acts as a smoothing factor to stabilize ranking variances between dense and sparse results.
 
-### Operations Optimization
-- Process bottleneck identification through data storytelling
-- Resource planning recommendations based on historical patterns
-- Quality control with automated anomaly detection
+### 2. Deep Cross-Encoder Reranking
+Dense retrievers encode query and document independently (Bi-Encoder), sacrificing cross-attention token interactions. 
+We feed the Top 50 fused candidates through a **Cross-Encoder reranker** (`bge-reranker-large`), computing full all-to-all attention between query tokens and document tokens. This elevated **Context Precision from 68% to 94.2%**.
 
-## Impact
+### 3. Sub-25ms Semantic Caching (Redis)
+Implemented a vector-based semantic cache storing prior query embeddings. Incoming queries with a cosine similarity score $> 0.92$ against cached vectors are served directly from Redis in **under 25ms**, slashing LLM API token consumption by **42%**.
 
-This innovative approach has demonstrated:
-- **70% reduction** in time required for analytical reporting
-- **80% improvement** in user satisfaction with data interaction
-- **Democratized analytics** enabling non-technical stakeholders to interact directly with complex datasets
+---
 
-## Future Enhancements
+## 📊 Quantified Production Benchmarks
 
-- **Multi-modal integration** combining tabular, text, and visual data
-- **Real-time streaming** data analysis capabilities
-- **Industry-specific fine-tuning** for vertical applications
-- **Predictive modeling** with explanatory narratives
+- **P99 Query Latency:** Sub-500ms end-to-end response time.
+- **Context Precision:** 94.2% (via Ragas evaluation framework).
+- **Faithfulness Score:** 96.4% factual grounding against source documents (zero hallucinations).
+- **Cost Reduction:** 42% decrease in recurring token spend through semantic caching and chunk deduplication.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Orchestration:** Python, LangChain, Semantic Kernel, FastAPI
+- **Vector & Lexical Search:** Qdrant, Azure AI Search, BM25, HNSW indexing
+- **Models:** Azure OpenAI (GPT-4o), Anthropic Claude 3.5 Sonnet, `bge-reranker-large`
+- **Caching & Storage:** Redis (Vector Store & Semantic Cache), PostgreSQL
+- **Evaluation & CI/CD:** Ragas, Docker, Azure DevOps

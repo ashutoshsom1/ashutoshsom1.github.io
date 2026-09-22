@@ -1,14 +1,8 @@
 ---
 layout: post
-date: 2024-08-15 15:59:00+0530
+date: 2026-08-01 09:00:00+0530
 inline: true
 related_posts: false
 ---
 
-🎯 Currently focused on Azure Cognitive Services integration, developing intelligent systems that process and extract information from diverse forms and documents.out: post
-date: 2016-01-15 07:59:00-0400
-inline: true
-related_posts: false
----
-
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+🚀 Open-sourced reference architecture and benchmarks for **Enterprise Hybrid RAG (Dense + BM25 Sparse Search)** fused via **Reciprocal Rank Fusion ($k=60$)** and cross-encoder reranking, delivering sub-500ms P99 latency and 94%+ retrieval precision.

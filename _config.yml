@@ -7,15 +7,15 @@ first_name: Ashutosh
 middle_name:  
 last_name: Somvanshi
 contact_note: >
-  Feel free to reach out via email or connect with me on LinkedIn for collaboration opportunities.
+  Feel free to reach out via email (ashutoshsomvanshi247@gmail.com) or connect with me on LinkedIn for Senior AI Engineering & Architectural opportunities.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  AI/ML Engineer & Data Analyst specializing in innovative solutions for tabular data analysis, 
-  invoice management systems, and Azure Cognitive Services. Passionate about leveraging cutting-edge 
-  technologies to drive efficiency and unlock valuable insights.
+  Senior AI Engineer & GenAI Systems Architect specializing in enterprise LLMs, autonomous 
+  multi-agent workflows (LangGraph, MCP), and production hybrid RAG architectures. Certified 
+  Anthropic Claude Architect and Microsoft Azure AI Engineer Associate.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: artificial intelligence, machine learning, data analysis, Azure, GPT models, computer vision, tabular data, automation # add your own keywords or leave empty
+keywords: Generative AI, LLMs, LangGraph, Model Context Protocol, MCP, Anthropic Claude, Azure OpenAI, Production RAG, AI Architect, Python, FastAPI, Machine Learning, Multi-Agent Systems # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

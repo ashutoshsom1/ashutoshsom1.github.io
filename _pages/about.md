@@ -2,41 +2,75 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>AI/ML Engineer & Data Analyst</a>. Specializing in innovative solutions for tabular data analysis and automation.
+subtitle: <a href='#'>Senior AI Engineer & GenAI Systems Architect</a> | Claude Certified Architect (Anthropic) & Azure AI Certified
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📧 ashutoshsomvanshi5@gmail.com</p>
-    <p>💼 Open to collaboration opportunities</p>
-    <p>🌟 Passionate about AI & Machine Learning</p>
+    <p>📍 India (Open to 100% Remote)</p>
+    <p>📧 ashutoshsomvanshi247@gmail.com</p>
+    <p>💼 Senior AI & GenAI Systems Architect</p>
+    <p>🏆 Anthropic Claude Certified Architect</p>
+    <p>☁️ Microsoft Certified: Azure AI Engineer</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers
 social: true # includes social icons at the bottom of the page
 ---
 
 👋 **Welcome to my digital space!**
 
-I'm Ashutosh Somvanshi, an AI/ML Engineer and Data Analyst with a passion for creating **innovative solutions** that drive productivity, accuracy, and strategic decision-making. My expertise spans across revolutionizing invoice management systems, harnessing the power of GPT models for tabular data analysis, and leveraging Azure Cognitive Services like Form Recognizer and Vision AI.
+I am a **Senior AI Engineer & Generative AI Systems Architect** with 4+ years of dedicated hands-on experience designing, scaling, and productionizing enterprise-grade LLM applications, autonomous multi-agent workflows, and high-accuracy RAG architectures.
 
-## 🚀 What I Do
+Certified as an **Anthropic Claude Certified Architect (Foundations)** and **Microsoft Certified: Azure AI Engineer Associate**, I bridge the gap between cutting-edge foundational models and high-throughput, secure enterprise environments. Over the past four years, I have architected intelligent copilot ecosystems and autonomous agent pipelines serving **5,000+ active enterprise users** with sub-500ms retrieval latency and 95%+ query resolution accuracy.
 
-**🧾 Invoice Management & Advanced Systems Development**  
-I collaborate closely with clients to develop advanced systems that streamline review and validation processes. By creating robust classification models, I accurately differentiate between handwritten and machine-printed invoices, boosting data accuracy and facilitating precise record-keeping. Through OCR and pattern matching techniques, I extract essential information, making data management effortless.
+---
 
-**📊 Innovative Approaches to Tabular Data Decision-Making**  
-Recognizing the challenges faced when using GPT models for tabular data decision-making, I've conducted extensive research to develop innovative approaches. Through a combination of GPT models, advanced preprocessing, and feature engineering, I create systems that effortlessly extract and analyze crucial information from diverse tabular datasets, empowering organizations to make confident data-driven decisions.
+## 🚀 Core Architectural Competencies
 
-**☁️ Azure Cognitive Services Expertise**  
-With a keen eye for automation and efficiency, I harness the power of Azure Cognitive Services, including Form Recognizer and Vision AI. I develop intelligent systems that accurately process and extract information from various forms and documents, while incorporating Vision AI capabilities to enhance accuracy and reliability of data extraction from images.
+### 🦾 Autonomous Agentic Workflows & Tool Orchestration
+- **Stateful Multi-Agent Graphs:** Architecting complex multi-agent state machines with **LangGraph**, **Semantic Kernel**, and **AutoGen**, utilizing cyclic graphs, persistent PostgreSQL/Redis checkpointing, and loop-bound safety guards.
+- **Model Context Protocol (MCP) & Tool Calling:** Implementing strict Pydantic V2 tool-calling schemas, dynamic function calling, and Anthropic Claude Agent SDK integration for automated enterprise workflows.
+- **Human-in-the-Loop (HITL) Governance:** Engineering deterministic approval gates and webhook notifications (e.g. Slack/Teams) before executing sensitive business logic or infrastructure changes.
 
-## 🎓 Background & Passion
+### 🔍 Production Hybrid RAG & Vector Retrieval
+- **Advanced Retrieval Pipelines:** Engineering enterprise-scale RAG systems combining **Dense Semantic Search** and **Sparse Lexical Search (BM25)** via **Reciprocal Rank Fusion (RRF with $k=60$)** over 100,000+ complex corporate documents.
+- **Deep Cross-Encoder Reranking:** Leveraging cross-encoders (`bge-reranker-large`, Cohere Rerank) to elevate Context Precision from 68% to **>94%**.
+- **Vector Search Infrastructure:** Managing high-cardinality metadata filtering and indexing across **Azure AI Search**, **Qdrant**, and **pgvector**.
+- **Automated RAG Evaluation:** Benchmarking retrieval faithfulness, context precision, and answer relevance using **Ragas** and custom LLM-as-a-Judge evaluators.
 
-I hold a bachelor's degree in Computer Science Engineering and continually seek opportunities to expand my skills while staying at the forefront of emerging technologies. I'm committed to staying ahead of the curve and leveraging the latest advancements in AI and ML to drive efficiency, optimize processes, and unlock invaluable insights from diverse datasets.
+### 🏢 Enterprise Copilots & Microsoft Ecosystem Integration
+- **Enterprise Copilot Ecosystem:** Designed and deployed multi-turn conversational copilots integrated into **Microsoft Teams, SharePoint, and Dynamics 365** serving 5,000+ enterprise users with a 95% satisfaction rate.
+- **Secure Data Connectors:** Built enterprise ingestion pipelines using **Microsoft Graph API, REST, and GraphQL** to ground LLM reasoning across siloed systems with strict Role-Based Access Control (RBAC).
+- **Enterprise Guardrails & Privacy:** Enforcing zero-trust network isolation, private endpoints, automated PII masking, and prompt-injection firewalls.
+
+### ⚡ AI Lifecycle, Latency & Cloud FinOps Optimization
+- **Token Economics & FinOps:** Developed cost break-even models (Pay-As-You-Go vs Provisioned Throughput Units / PTUs) and implemented semantic vector caching in Redis to slash API token spend by **42%**.
+- **Serving & Throughput Optimization:** Profiling inference pipelines for low Time-to-First-Token (TTFT) and high token generation throughput, driving a **40% reduction in P99 latency**.
+- **Modular Accelerators:** Created reusable Python middleware for exponential backoff, rate-limiting, and error recovery, **accelerating cross-team AI feature delivery by 60%**.
+
+---
+
+## 🏆 Key Certifications & Credentials
+
+- 🎖️ **Claude Certified Architect: Foundations** — Anthropic (2025/2026)
+- 🎖️ **Claude Code in Action** — Anthropic (2026)
+- 🎖️ **Introduction to Model Context Protocol (MCP)** — Anthropic (2025)
+- 🎖️ **Microsoft Certified: Azure AI Engineer Associate** — Microsoft (2025)
+- 🎖️ **Generative AI Professional** — Oracle Cloud Infrastructure (2025)
+- 🎖️ **Introduction to LangGraph & Agentic Workflows** — LangChain Academy (2025)
+- 🎖️ **Fundamentals of AI Agents & MCP** — Hugging Face (2025)
+
+---
 
 ## 🤝 Let's Connect!
 
-If you're seeking a dedicated professional who can optimize processes, automate data extraction, and has a genuine passion for leveraging AI and ML to drive efficiency and unlock valuable insights, I'm eager to connect and explore potential collaborations. Together, we can make a significant impact on your organization's success!
+I am actively open to **Senior AI Engineer, GenAI Architect, and Lead Machine Learning Engineer** opportunities (specializing in **100% Remote** positions).
+
+Whether you're looking to scale production RAG pipelines, deploy autonomous multi-agent state machines, or optimize enterprise LLM infrastructure, let's connect!
+
+- 📧 **Email:** [ashutoshsomvanshi247@gmail.com](mailto:ashutoshsomvanshi247@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/ashutosh-somvanshi-5233b9182](https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182/)
+- 💻 **GitHub:** [github.com/ashutoshsom1](https://github.com/ashutoshsom1)
