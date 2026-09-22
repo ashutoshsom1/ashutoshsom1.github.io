@@ -442,30 +442,30 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-currently-focused-on-azure-cognitive-services-integration-developing-intelligent-systems-that-process-and-extract-information-from-diverse-forms-and-documents-out-post-date-2016-01-15-07-59-00-0400-inline-true-related-posts-false-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: '🎯 Currently focused on Azure Cognitive Services integration, developing intelligent systems that process...',
+    },{id: "news-officially-certified-as-an-anthropic-claude-certified-architect-foundations-deep-diving-into-the-claude-agent-sdk-model-context-protocol-mcp-and-production-multi-agent-system-design",
+          title: '🏆 Officially certified as an Anthropic Claude Certified Architect (Foundations)! Deep-diving into the...',
           description: "",
-          section: "News",},{id: "news-innovative-ai-ml-solutions-development",
-          title: 'Innovative AI/ML Solutions Development',
+          section: "News",},{id: "news-",
+          title: '',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-welcome-to-my-new-professional-website-showcasing-my-expertise-in-ai-ml-tabular-data-analysis-and-azure-cognitive-services-excited-to-share-my-journey-and-connect-with-fellow-innovators-out-post-date-2015-10-22-15-59-00-0400-inline-true-related-posts-false-a-simple-inline-announcement",
-          title: '🚀 Welcome to my new professional website! Showcasing my expertise in AI/ML, tabular...',
+            },},{id: "news-open-sourced-reference-architecture-and-benchmarks-for-enterprise-hybrid-rag-dense-bm25-sparse-search-fused-via-reciprocal-rank-fusion-k-60-and-cross-encoder-reranking-delivering-sub-500ms-p99-latency-and-94-retrieval-precision",
+          title: '🚀 Open-sourced reference architecture and benchmarks for Enterprise Hybrid RAG (Dense + BM25...',
           description: "",
-          section: "News",},{id: "projects-gpt-based-tabular-data-analysis-system",
-          title: 'GPT-Based Tabular Data Analysis System',
-          description: "Revolutionary approach to tabular data decision-making using advanced AI techniques",
+          section: "News",},{id: "projects-enterprise-cognitive-hybrid-rag-platform",
+          title: 'Enterprise Cognitive Hybrid RAG Platform',
+          description: "High-throughput enterprise knowledge engine combining Dense Vector &amp; BM25 Sparse Search with Cross-Encoder reranking and sub-500ms P99 latency.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-azure-cognitive-services-integration-platform",
-          title: 'Azure Cognitive Services Integration Platform',
-          description: "Intelligent document processing using Form Recognizer and Vision AI",
+            },},{id: "projects-multi-agent-autonomous-incident-triage-engine",
+          title: 'Multi-Agent Autonomous Incident Triage Engine',
+          description: "Fault-tolerant multi-agent state machine using LangGraph and Model Context Protocol (MCP) with Human-in-the-Loop Slack approval gates.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-enterprise-microsoft-365-copilot-amp-dynamics-ai-ecosystem",
+          title: 'Enterprise Microsoft 365 Copilot &amp;amp; Dynamics AI Ecosystem',
+          description: "Production conversational copilot platform integrated across Microsoft Teams, SharePoint, and Dynamics 365 serving 5,000+ enterprise users with a 95% resolution rate.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
@@ -503,7 +503,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%73%68%75%74%6F%73%68%73%6F%6D%76%61%6E%73%68%69%35@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%61%73%68%75%74%6F%73%68%73%6F%6D%76%61%6E%73%68%69%32%34%37@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -532,13 +532,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
