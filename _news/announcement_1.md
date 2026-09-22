@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-09-10 10:00:00+0530
+date: 2026-09-15 10:00:00+0530
 inline: true
 related_posts: false
 ---
 
-🏆 Officially certified as an **Anthropic Claude Certified Architect (Foundations)**! Deep-diving into the Claude Agent SDK, Model Context Protocol (MCP), and production multi-agent system design.
+🏆 Officially earned the **Claude Certified Architect (Foundations)** credential from **Anthropic**! Validating the architectural capability to design, build, and deliver production-grade AI solutions with Claude, the Claude Agent SDK, and Model Context Protocol (MCP). #ClaudeCertified

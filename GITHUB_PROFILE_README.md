@@ -1,8 +1,8 @@
 # Hi there, I'm Ashutosh Somvanshi 👋
 ### Senior AI Engineer & GenAI Systems Architect | Claude Certified Architect (Anthropic) & Azure AI Certified
 
-[![Anthropic Claude](https://img.shields.io/badge/Anthropic-Claude_Certified_Architect-blueviolet?style=for-the-badge&logo=anthropic)](https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182/)
-[![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure_AI_Engineer_Associate-0078D4?style=for-the-badge&logo=microsoftazure)](https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182/)
+[![Anthropic Claude](https://img.shields.io/badge/Anthropic-Claude_Certified_Architect-blueviolet?style=for-the-badge&logo=anthropic)](https://www.linkedin.com/in/ashutosh-somvanshi-ai/)
+[![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure_AI_Engineer_Associate-0078D4?style=for-the-badge&logo=microsoftazure)](https://www.linkedin.com/in/ashutosh-somvanshi-ai/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Production-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agentic_Workflows-1C3C3C?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
@@ -11,10 +11,10 @@
 
 ## 🚀 About Me
 
-I am a **Senior AI Engineer & GenAI Systems Architect** with 4+ years of hands-on experience designing, scaling, and productionizing enterprise LLM applications, autonomous multi-agent state machines, and high-accuracy RAG architectures.
+I am a **Senior AI Engineer & GenAI Systems Architect** at the **AI Center of Excellence (CoE) at Nihilent**, with 4+ years of hands-on experience designing, scaling, and productionizing enterprise LLM applications, autonomous multi-agent state machines, and high-accuracy RAG architectures.
 
 - 🌐 **Portfolio Website:** [ashutoshsom1.github.io](https://ashutoshsom1.github.io/)
-- 💼 **LinkedIn:** [linkedin.com/in/ashutosh-somvanshi-5233b9182](https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182/)
+- 💼 **LinkedIn:** [linkedin.com/in/ashutosh-somvanshi-ai](https://www.linkedin.com/in/ashutosh-somvanshi-ai/)
 - 📧 **Contact:** [ashutoshsomvanshi247@gmail.com](mailto:ashutoshsomvanshi247@gmail.com)
 - 📍 **Location:** India (Open to 100% Remote Opportunities)
 

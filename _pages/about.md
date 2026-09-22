@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 👋 **Welcome to my digital space!**
 
-I am a **Senior AI Engineer & Generative AI Systems Architect** with 4+ years of dedicated hands-on experience designing, scaling, and productionizing enterprise-grade LLM applications, autonomous multi-agent workflows, and high-accuracy RAG architectures.
+I am a **Senior AI Engineer & Generative AI Systems Architect** at the **AI Center of Excellence (CoE) at Nihilent**, with 4+ years of dedicated hands-on experience designing, scaling, and productionizing enterprise-grade LLM applications, autonomous multi-agent workflows, and high-accuracy RAG architectures.
 
 Certified as an **Anthropic Claude Certified Architect (Foundations)** and **Microsoft Certified: Azure AI Engineer Associate**, I bridge the gap between cutting-edge foundational models and high-throughput, secure enterprise environments. Over the past four years, I have architected intelligent copilot ecosystems and autonomous agent pipelines serving **5,000+ active enterprise users** with sub-500ms retrieval latency and 95%+ query resolution accuracy.
 
@@ -72,5 +72,5 @@ I am actively open to **Senior AI Engineer, GenAI Architect, and Lead Machine Le
 Whether you're looking to scale production RAG pipelines, deploy autonomous multi-agent state machines, or optimize enterprise LLM infrastructure, let's connect!
 
 - 📧 **Email:** [ashutoshsomvanshi247@gmail.com](mailto:ashutoshsomvanshi247@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/ashutosh-somvanshi-5233b9182](https://www.linkedin.com/in/ashutosh-somvanshi-5233b9182/)
+- 💼 **LinkedIn:** [linkedin.com/in/ashutosh-somvanshi-ai](https://www.linkedin.com/in/ashutosh-somvanshi-ai/)
 - 💻 **GitHub:** [github.com/ashutoshsom1](https://github.com/ashutoshsom1)

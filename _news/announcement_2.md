@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Microsoft Certified: Azure AI Engineer Associate
-date: 2025-08-15 11:30:00+0530
+title: New Chapter at Nihilent's AI Center of Excellence (CoE)
+date: 2026-06-15 12:00:00+0530
 inline: false
 related_posts: false
 ---
 
-Earned the **Microsoft Certified: Azure AI Engineer Associate** credential! 
+Excited to begin a new chapter driving technical architecture and delivery at the **AI Center of Excellence (CoE) at Nihilent**! 🚀
 
-This milestone validates deep practical expertise in architecting and operationalizing enterprise AI solutions using **Azure OpenAI Services**, **Azure AI Search**, **AI Foundry**, and secure multi-tenant cloud architectures.
+Focusing on taking enterprise GenAI solutions from concept to production—architecting autonomous multi-agent state machines, stateful agentic loops with Microsoft Foundry Agent Service, production hybrid RAG, and intelligent copilot ecosystems across Microsoft 365 and Dynamics 365.
