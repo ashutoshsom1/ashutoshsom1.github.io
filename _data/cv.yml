@@ -6,111 +6,133 @@
     - name: Title
       value: Senior AI Engineer & GenAI Systems Architect
     - name: Email
-      value: ashutoshsomvanshi247@gmail.com
+      value: <a href="mailto:ashutoshsomvanshi247@gmail.com">ashutoshsomvanshi247@gmail.com</a>
     - name: Phone
-      value: +91-6394256455
+      value: <a href="tel:+916394256455">+91-6394256455</a>
     - name: Location
       value: India (Open to 100% Remote Opportunities)
     - name: LinkedIn
-      value: <a href="https://www.linkedin.com/in/ashutosh-somvanshi-ai/">ashutosh-somvanshi-ai</a>
+      value: <a href="https://www.linkedin.com/in/ashutosh-somvanshi-ai/">linkedin.com/in/ashutosh-somvanshi-ai</a>
     - name: GitHub
-      value: <a href="https://github.com/ashutoshsom1">ashutoshsom1</a>
+      value: <a href="https://github.com/ashutoshsom1">github.com/ashutosh-somvanshi</a>
     - name: Portfolio
       value: <a href="https://ashutoshsom1.github.io/">ashutoshsom1.github.io</a>
 
 - title: Professional Summary
   type: map
   contents:
-    - name: Overview
-      value: Senior AI Engineer & Solutions Architect with 4+ years of dedicated hands-on experience designing, scaling, and deploying enterprise Generative AI, LLM systems, Agentic workflows, and production RAG platforms. Certified Anthropic Claude Architect and Microsoft Azure AI Engineer Associate. Proven track record deploying intelligent copilot ecosystems serving 5,000+ enterprise users with sub-500ms retrieval latency and 95%+ satisfaction.
-    - name: Core Competencies
-      value: Multi-Agent Systems (LangGraph, MCP), Production Hybrid RAG (Dense + BM25, Cross-Encoders), Enterprise Copilot Architecture (M365, Dynamics 365, Teams), Cloud FinOps & Latency Optimization.
+    - name: Summary
+      value: Senior AI Engineer & Solutions Architect with 5+ years of dedicated hands-on experience architecting and deploying enterprise-scale Generative AI, LLM systems, Agentic workflows, and production RAG platforms. Proven track record translating complex enterprise requirements into scalable, secure AI products serving 5,000+ enterprise users. Certified in both Anthropic Claude Architecture and Microsoft Azure AI, with deep expertise in Python, LangGraph, Semantic Kernel, Azure OpenAI, Vector Databases, and enterprise system integrations. Adept at bridging concept-to-production lifecycle, optimizing inference latency and token economics, and delivering high-ROI AI automation.
+
+- title: Core Technical Skills
+  type: nested_list
+  contents:
+    - title: Generative AI & LLMs
+      items:
+        - LLM Orchestration, Multi-Agent Systems, Agentic Workflows, Production RAG, Contextual Memory, Prompt Optimization, Guardrails & Model Evaluation
+    - title: Agent Frameworks & Tooling
+      items:
+        - LangGraph, Semantic Kernel, LangChain, AutoGen, CrewAI, Model Context Protocol (MCP), Microsoft Bot Framework SDK
+    - title: Model Ecosystem & Cloud AI
+      items:
+        - Azure OpenAI (GPT-4o, o1/o3), Anthropic Claude (Claude 3.5 Sonnet/Opus), Open-Source LLMs (Llama 3, Mistral), AI Foundry, Azure AI Search, Azure Cognitive Services
+    - title: Vector Search & Retrieval
+      items:
+        - Hybrid Search (Dense + Sparse BM25), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, Vector Databases (Azure AI Search, Qdrant, pgvector), Embedding Models
+    - title: Engineering Stack & Backend
+      items:
+        - Python (Expert), FastAPI, AsyncIO, REST APIs, GraphQL, SQL, Docker, CI/CD, Azure DevOps, Git
+    - title: Enterprise Integration & Security
+      items:
+        - Microsoft 365, Microsoft Graph API, Dynamics 365, SharePoint, OAuth 2.0, Enterprise RBAC, Private Endpoints, PII Masking, Token Cost Optimization
+
+- title: Professional Certifications
+  type: time_table
+  contents:
+    - title: "Claude Certified Architect: Foundations"
+      institution: Anthropic
+      year: 2025/2026
+      description:
+        - Systems Design, Claude Agent SDK, Multi-Agent Systems, and Anthropic Claude 3.5 architecture.
+    - title: "Microsoft Certified: Azure AI Engineer Associate"
+      institution: Microsoft
+      year: 2025
+      description:
+        - Designing and implementing Azure AI solutions, Azure OpenAI Services, and cognitive cloud architecture.
+    - title: "Generative AI Professional"
+      institution: Oracle Cloud Infrastructure (OCI)
+      year: 2025
+      description:
+        - Advanced LLM deployment, fine-tuning, retrieval techniques, and enterprise vector architectures.
+    - title: "Introduction to LangGraph & Agentic Workflows"
+      institution: LangChain Academy
+      year: 2025
+      description:
+        - Stateful cyclic graphs, checkpointing, multi-agent communication patterns, and human-in-the-loop review.
+    - title: "Fundamentals of AI Agents & MCP"
+      institution: Hugging Face
+      year: 2025
+      description:
+        - Agentic tool use, autonomous workflows, and Model Context Protocol (MCP) integrations.
+    - title: "Generative AI with Large Language Models (LLMs)"
+      institution: AWS + DeepLearning.AI
+      year: 2024
+      description:
+        - Foundation model lifecycle, pre-training, instruction fine-tuning, RLHF, and parameter-efficient fine-tuning (PEFT/LoRA).
 
 - title: Professional Experience
   type: time_table
   contents:
     - title: Senior AI Lead – Generative AI & Enterprise Architecture
-      institution: AI Center of Excellence (CoE) – Nihilent Technologies Inc
+      institution: Nihilent Ltd
       year: Sep 2024 – Present
       description:
-        - Architected and delivered intelligent conversational copilots and custom GPT systems integrated with Microsoft Teams, SharePoint, and Dynamics 365, serving 5,000+ enterprise users with a 95% resolution satisfaction rate.
-        - Engineered high-accuracy production RAG pipelines combining dense vector embeddings and BM25 sparse search via Reciprocal Rank Fusion (RRF) and cross-encoder reranking over 100k+ documents, boosting retrieval precision from 68% to 94%.
-        - Designed stateful multi-agent workflows using LangGraph and Semantic Kernel, orchestrating tool-calling schemas, state checkpointing, and Human-in-the-Loop (HITL) validation for enterprise automation.
-        - Leveraged Azure AI Foundry and custom telemetry to optimize model selection, token budgets, and prompt compression, driving a 40% reduction in inference latency and substantial token cost savings.
-        - Developed secure enterprise data connectors via Microsoft Graph API, REST, and GraphQL, grounding LLM reasoning with strict role-based access control (RBAC).
-        - Spearheaded 15+ AI proof-of-concepts (POCs) from initial scoping to production release, partnering with enterprise product owners.
+        - "<strong>Enterprise Copilot & Assistant Architecture:</strong> Architected and delivered intelligent conversational copilots and custom GPT solutions integrated with Microsoft Teams, SharePoint, and Dynamics 365, serving 5,000+ enterprise users with a 95% resolution satisfaction rate."
+        - "<strong>Production Hybrid RAG Systems:</strong> Engineered high-accuracy RAG pipelines using Azure AI Search, dense embeddings, and cross-encoder reranking over 100,000+ complex enterprise documents, boosting context retrieval precision from 68% to 94%."
+        - "<strong>Agentic Workflow Automation:</strong> Designed stateful multi-agent workflows using LangGraph and Semantic Kernel, orchestrating tool-calling schemas, state checkpointing, and human-in-the-loop validation for automated enterprise business reporting."
+        - "<strong>AI Lifecycle & FinOps Optimization:</strong> Leveraged Azure AI Foundry and custom telemetry to optimize model selection, token budgets, and prompt compression, driving a 40% reduction in inference latency and significant cloud operational cost savings."
+        - "<strong>Enterprise Data Ingestion:</strong> Developed secure data connectors using Microsoft Graph API, REST, and GraphQL to ground LLM reasoning across disparate enterprise data silos with strict role-based access control (RBAC)."
+        - "<strong>Executive POC-to-Production:</strong> Spearheaded 15+ AI proof-of-concepts (POCs) from initial scoping to production release, partnering with enterprise product owners to identify high-ROI automation use cases."
 
     - title: AI Technical Lead – Conversational AI & Enterprise Integration
-      institution: Nihilent Technologies Inc
+      institution: Nihilent Ltd
       year: Jul 2023 – Aug 2024
       description:
-        - Developed complex multi-turn conversational agents with Microsoft Bot Framework SDK and Azure OpenAI APIs, implementing advanced dialog management and contextual memory retention.
-        - Built reusable architectural templates and modular Python middleware for LLM rate-limiting, semantic caching, and error recovery, reducing enterprise AI feature delivery time by 60%.
-        - Collaborated with cloud DevOps teams to establish automated CI/CD deployment pipelines, prompt evaluation gates, and telemetry monitoring in Azure DevOps.
-        - Mentored 10+ junior and mid-level engineers in LLM orchestration, prompt design best practices, and secure API development.
+        - "<strong>Multi-Turn Conversational Bots:</strong> Developed complex multi-turn conversational agents with Microsoft Bot Framework SDK and Azure OpenAI APIs, implementing advanced state management and contextual memory retention."
+        - "<strong>Reusable Enterprise AI Accelerators:</strong> Built reusable architectural templates and modular Python middleware for LLM rate-limiting, semantic caching, and error recovery, reducing enterprise AI feature delivery time by 60%."
+        - "<strong>CI/CD & MLOps Governance:</strong> Collaborated with cloud DevOps teams to establish automated CI/CD deployment pipelines, prompt evaluation gates, and telemetry monitoring in Azure DevOps."
+        - "<strong>Technical Mentorship:</strong> Mentored 10+ junior and mid-level engineers in LLM orchestration, prompt design best practices, and secure API development."
 
     - title: AI/ML Engineer – Machine Learning Solutions
-      institution: Nihilent Technologies Inc
-      year: Sep 2022 – Jun 2023
+      institution: Nihilent Ltd / Prior Technical Experience
+      year: 2019 – 2023
       description:
-        - Built and tuned traditional ML and NLP pipelines using Python, Scikit-Learn, and BERT for text classification, sentiment analysis, and intent recognition.
-        - Implemented early semantic search prototypes using embedding models and vector indexing algorithms (HNSW, Cosine Similarity) to improve document discovery.
-        - Configured and deployed model endpoints using Azure ML, Azure Cognitive Services, and containerized Docker microservices.
+        - "<strong>NLP & Predictive Modeling:</strong> Built and tuned traditional ML and NLP pipelines using Python, Scikit-Learn, and BERT for text classification, sentiment analysis, and intent recognition."
+        - "<strong>Vector Search & Embeddings Exploration:</strong> Implemented early semantic search prototypes using embedding models and vector indexing algorithms (HNSW, Cosine Similarity) to improve document discovery."
+        - "<strong>Cloud ML Deployments:</strong> Configured and deployed model endpoints using Azure ML, Azure Cognitive Services, and containerized Docker microservices."
 
-- title: Professional Certifications
+- title: Key Strategic Portfolio Projects
   type: time_table
   contents:
-    - title: Claude Certified Architect - Foundations
-      institution: Anthropic
-      year: 2026 – 2027
+    - title: Enterprise Cognitive RAG Platform (DocuMind AI)
+      institution: Production Architecture
+      year: 2024
       description:
-        - Systems Design, Claude Agent SDK, Multi-Agent Systems, and Anthropic Claude 3.5 architecture.
-    - title: Claude Code in Action
-      institution: Anthropic
-      year: 2026
-      description:
-        - Terminal-based agentic software engineering and autonomous code generation with Claude.
-    - title: "Microsoft Certified: Azure AI Engineer Associate"
-      institution: Microsoft
-      year: 2025
-      description:
-        - Designing and implementing Azure AI solutions, Azure OpenAI Services, and cognitive cloud architecture (Credential ID C7CD011CEF746AFC).
-    - title: Introduction to Model Context Protocol (MCP)
-      institution: Anthropic
-      year: 2025
-      description:
-        - Standardizing LLM tool execution, decoupled client-server architecture, and enterprise protocol governance.
-    - title: Generative AI Professional
-      institution: Oracle Cloud Infrastructure (OCI)
-      year: 2025
-    - title: Introduction to LangGraph & Agentic Workflows
-      institution: LangChain Academy
-      year: 2025
-    - title: Fundamentals of AI Agents & MCP
-      institution: Hugging Face
-      year: 2025
+        - Designed an enterprise knowledge retrieval engine combining Dense Vector Search and BM25 Sparse Search via Reciprocal Rank Fusion (RRF) and Cross-Encoder reranking.
+        - Integrated Redis semantic caching to deliver sub-500ms P99 latency and slash token costs by 42%. Evaluated via Ragas framework with 96.4% faithfulness.
 
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Generative AI & Agentic Systems
-      items:
-        - LangGraph, Model Context Protocol (MCP), Multi-Agent Systems, Anthropic Claude 3.5, Azure OpenAI (GPT-4o), Semantic Kernel, AutoGen, Human-in-the-Loop (HITL)
-    - title: Retrieval-Augmented Generation (RAG) & Search
-      items:
-        - Hybrid Search (Dense Vector + BM25 Sparse), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, Azure AI Search, Qdrant, Redis Semantic Cache, Ragas Evaluation
-    - title: Engineering Stack & Cloud Infrastructure
-      items:
-        - Python (Expert, AsyncIO), FastAPI, Docker, PostgreSQL, REST APIs, GraphQL, Azure DevOps, CI/CD, Git
-    - title: Enterprise Integration & Security
-      items:
-        - Microsoft 365, Microsoft Graph API, Dynamics 365, OAuth 2.0, Enterprise RBAC, Private Endpoints, Token FinOps & Prompt Compression
+    - title: Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)
+      institution: Production Architecture
+      year: 2024
+      description:
+        - Built a fault-tolerant multi-agent state machine in Python & LangGraph with PostgreSQL state persistence.
+        - Orchestrated specialized diagnostic agents with tool-calling schemas and a Human-in-the-Loop Slack approval gate for automated cloud alert diagnosis and mitigation.
 
 - title: Education
   type: time_table
   contents:
     - title: Bachelor of Technology (B.Tech) – Computer Science and Engineering
-      institution: Dr. A.P.J. Abdul Kalam Technical University (AKTU)
-      year: 2018 – 2022
+      institution: Vishveshwarya Institute of Engineering and Technology (VIET)
+      year: Graduated 2022
       description:
-        - Focused on algorithms, data structures, artificial intelligence, and software engineering principles.
+        - Affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU). Focused on algorithms, data structures, artificial intelligence, and software engineering.
