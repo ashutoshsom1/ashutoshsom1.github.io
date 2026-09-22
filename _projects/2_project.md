@@ -10,7 +10,7 @@ github: https://github.com/ashutoshsom1
 
 ## 📌 Executive Overview
 
-**IncidentOps AI** is an autonomous multi-agent diagnostic engine designed to handle enterprise cloud infrastructure alerts and production incidents. 
+**IncidentOps AI** is an autonomous multi-agent diagnostic engine designed to handle enterprise cloud infrastructure alerts and production incidents.
 
 When high-severity alerts fire from monitoring tools (Datadog, Prometheus, Azure Monitor), human engineers typically waste 30 to 45 minutes manually collecting logs, correlating metrics, and triaging root causes. IncidentOps AI automates this entire diagnostic workflow within 90 seconds using **collaborating autonomous agents** orchestrated via **LangGraph** and the **Model Context Protocol (MCP)**.
 
@@ -46,15 +46,19 @@ When high-severity alerts fire from monitoring tools (Datadog, Prometheus, Azure
 ## ⚡ Core Technical Innovations
 
 ### 1. LangGraph StateGraph with Deterministic FSM Semantics
+
 Single-prompt ReAct loops are prone to infinite loops and context blowouts. IncidentOps AI uses **LangGraph StateGraph** to enforce a deterministic finite-state machine with:
+
 - **Typed State Schemas:** Pydantic V2 models defining exact diagnostic payloads passed between nodes.
 - **Loop-Bound Guards:** Hard limits on retry counts to prevent cascading LLM token spend.
 - **Persistent State Checkpointing:** Every node transition is checkpointed to PostgreSQL, allowing full state recovery if worker containers crash.
 
 ### 2. Model Context Protocol (MCP) Tool Integration
+
 Standardized tool execution using Anthropic's **Model Context Protocol (MCP)**. Agents query logs, query Kubernetes clusters, and fetch Git commit diffs through decoupled, secure MCP servers, ensuring zero credential exposure to LLM contexts.
 
 ### 3. Human-in-the-Loop (HITL) Gate
+
 Remediation actions (e.g., restarting K8s pods, clearing Redis caches, rolling back canary deployments) cannot be executed autonomously without human oversight. The state graph halts execution, sends an interactive rich card to **Slack/Microsoft Teams**, and resumes execution only upon receiving signed HMAC webhook authorization from the on-call engineer.
 
 ---

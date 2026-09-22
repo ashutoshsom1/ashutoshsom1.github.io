@@ -19,6 +19,7 @@ Here is the technical post-mortem of how we architected an **Enterprise Hybrid R
 ## 1. Why Pure Vector Search Fails in Enterprise Applications
 
 Dense vector embeddings (like OpenAI `text-embedding-3-large` or `bge-large-en-v1.5`) excel at semantic proximity, but they struggle severely with:
+
 - **Exact Alpha-Numeric Identifiers:** Error codes (`ERR-40912`), product part numbers, or tax IDs.
 - **Acronyms & Specialized Jargon:** Medical or internal enterprise codenames.
 - **Short Entity Queries:** Queries where lexical matching is critical.
@@ -30,6 +31,7 @@ Conversely, traditional keyword search (**BM25**) captures exact tokens but comp
 ## 2. The Solution: Parallel Hybrid Search with Reciprocal Rank Fusion (RRF)
 
 We run parallel retrieval across both paradigms:
+
 1. **Dense Vector Search:** High-dimensional vector index (Qdrant / Azure AI Search with HNSW).
 2. **Sparse Lexical Search:** BM25 inverted index.
 
@@ -64,6 +66,7 @@ def cosine_similarity(v1: np.ndarray, v2: np.ndarray) -> float:
 ```
 
 ### Production Results:
+
 - **P99 Response Latency:** Under 500ms.
 - **Token Cost Savings:** 42% decrease in recurring OpenAI API spend.
 - **Evaluation:** Evaluated via **Ragas** framework with **96.4% faithfulness**.

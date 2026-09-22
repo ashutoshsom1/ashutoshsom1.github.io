@@ -10,7 +10,7 @@ github: https://github.com/ashutoshsom1
 
 ## 📌 Executive Overview
 
-An enterprise-grade **Retrieval-Augmented Generation (RAG)** platform engineered to index, retrieve, and synthesize contextual intelligence across **100,000+ complex corporate documents** (PDFs, contracts, technical specifications, and internal wikis). 
+An enterprise-grade **Retrieval-Augmented Generation (RAG)** platform engineered to index, retrieve, and synthesize contextual intelligence across **100,000+ complex corporate documents** (PDFs, contracts, technical specifications, and internal wikis).
 
 Traditional naive RAG architectures suffer from context dilution, semantic drift, and high latency. This platform resolves those bottlenecks through a **Two-Stage Hybrid Search Pipeline**, dynamic **Reciprocal Rank Fusion (RRF)**, deep **Cross-Encoder Reranking**, and an in-memory **Semantic Vector Cache**.
 
@@ -45,7 +45,8 @@ Traditional naive RAG architectures suffer from context dilution, semantic drift
 ## ⚡ Core Technical Innovations
 
 ### 1. Hybrid Search Fusion with Reciprocal Rank Fusion (RRF)
-Naive vector search struggles with exact keywords (part numbers, error codes, legal clauses), while keyword search fails on semantic intent. 
+
+Naive vector search struggles with exact keywords (part numbers, error codes, legal clauses), while keyword search fails on semantic intent.
 The retrieval engine runs parallel queries across dense vector embeddings (`text-embedding-3-large`) and sparse BM25 indices, combining candidate ranks using Reciprocal Rank Fusion:
 
 $$\text{RRF Score}(d) = \sum_{m \in M} \frac{1}{k + r_m(d)}$$
@@ -53,10 +54,12 @@ $$\text{RRF Score}(d) = \sum_{m \in M} \frac{1}{k + r_m(d)}$$
 Where $k=60$ acts as a smoothing factor to stabilize ranking variances between dense and sparse results.
 
 ### 2. Deep Cross-Encoder Reranking
-Dense retrievers encode query and document independently (Bi-Encoder), sacrificing cross-attention token interactions. 
+
+Dense retrievers encode query and document independently (Bi-Encoder), sacrificing cross-attention token interactions.
 We feed the Top 50 fused candidates through a **Cross-Encoder reranker** (`bge-reranker-large`), computing full all-to-all attention between query tokens and document tokens. This elevated **Context Precision from 68% to 94.2%**.
 
 ### 3. Sub-25ms Semantic Caching (Redis)
+
 Implemented a vector-based semantic cache storing prior query embeddings. Incoming queries with a cosine similarity score $> 0.92$ against cached vectors are served directly from Redis in **under 25ms**, slashing LLM API token consumption by **42%**.
 
 ---

@@ -10,7 +10,7 @@ github: https://github.com/ashutoshsom1
 
 ## 📌 Executive Overview
 
-An enterprise-wide **Intelligent Conversational Copilot Ecosystem** deployed across **Microsoft 365 (Teams, SharePoint, Dynamics 365)**. 
+An enterprise-wide **Intelligent Conversational Copilot Ecosystem** deployed across **Microsoft 365 (Teams, SharePoint, Dynamics 365)**.
 
 Built to automate complex enterprise knowledge workflows—including CRM deal summaries, contract analysis, IT support escalation, and employee policy inquiries—this platform serves **5,000+ active enterprise users** while strictly adhering to corporate data governance, zero-trust security, and role-based access control (RBAC).
 
@@ -45,12 +45,15 @@ Built to automate complex enterprise knowledge workflows—including CRM deal su
 ## ⚡ Core Technical Innovations
 
 ### 1. Zero-Trust Enterprise Grounding with Microsoft Graph
+
 To prevent data leakage across departments (e.g. Sales reps seeing HR payroll files), the copilot dynamically inherits user security tokens via **OAuth 2.0 on-behalf-of (OBO) flow**. Queries to **Microsoft Graph API** ground the model exclusively in data the specific user is permitted to view.
 
 ### 2. Multi-Turn Dialog Management with Semantic Kernel
+
 Utilized **Microsoft Semantic Kernel** and custom Python plugins to handle multi-step planning, state preservation, and dynamic prompt templates across extended conversational sessions.
 
 ### 3. Enterprise Guardrails & Content Safety
+
 Integrated **Azure AI Content Safety** and prompt-shield firewalls to intercept jailbreak attempts, filter toxic inputs, and ensure 100% compliance with corporate AI usage policies.
 
 ---

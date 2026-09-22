@@ -19,6 +19,7 @@ Having recently completed the **Anthropic Claude Certified Architect (Foundation
 ## 1. The Bottleneck: Point-to-Point Tool Integration
 
 In early LLM agent implementations, developers wrote custom API wrappers for every database, search engine, and internal service. This led to:
+
 - **Tight Coupling:** Any change in internal microservices broke LLM tool definitions.
 - **Security & Secret Leakage:** Database credentials and bearer tokens lived directly inside agent runtime scripts.
 - **Zero Standard Governance:** No uniform auditing or rate-limiting across different tools.
@@ -46,6 +47,7 @@ Instead of writing bespoke wrappers, tool providers expose standardized **MCP Se
 ```
 
 ### Core Architecture Advantages:
+
 - **Decoupled Architecture:** The LLM client only needs to speak MCP; server backends can be refactored, scaled, or replaced without touching agent prompts.
 - **Zero-Trust Access Control:** MCP servers enforce local token validation and RBAC before executing any query or mutation.
 - **Dynamic Context Discovery:** Agents dynamically query available tools and prompt templates based on session state.

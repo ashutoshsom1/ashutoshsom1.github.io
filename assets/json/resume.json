@@ -42,7 +42,7 @@
       "summary": "Developing innovative solutions for tabular data analysis using GPT models and advanced preprocessing techniques. Creating advanced invoice management systems with OCR and pattern matching, achieving 95% accuracy in data extraction.",
       "highlights": [
         "Developed GPT-based tabular data analysis system with 95% accuracy",
-        "Created intelligent invoice management platform with OCR integration", 
+        "Created intelligent invoice management platform with OCR integration",
         "Leveraged Azure Cognitive Services for automated document processing",
         "Achieved 70% time reduction in analytical report generation",
         "Built scalable data processing pipelines for diverse business requirements"
@@ -58,10 +58,7 @@
       "startDate": "2023-01-01",
       "endDate": "Present",
       "summary": "Contributing to open source AI projects and sharing knowledge about machine learning and data analysis techniques.",
-      "highlights": [
-        "Contributing to AI/ML open source projects",
-        "Sharing knowledge and best practices in data science community"
-      ]
+      "highlights": ["Contributing to AI/ML open source projects", "Sharing knowledge and best practices in data science community"]
     }
   ],
   "education": [
@@ -74,13 +71,7 @@
       "startDate": "2019-01-01",
       "endDate": "2023-01-01",
       "score": "",
-      "courses": [
-        "Algorithms and Data Structures",
-        "Machine Learning",
-        "Database Systems",
-        "Object-Oriented Programming",
-        "Software Engineering"
-      ]
+      "courses": ["Algorithms and Data Structures", "Machine Learning", "Database Systems", "Object-Oriented Programming", "Software Engineering"]
     }
   ],
   "awards": [
@@ -136,36 +127,19 @@
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "JavaScript", 
-        "C++",
-        "SQL",
-        "HTML/CSS"
-      ]
+      "keywords": ["Python", "JavaScript", "C++", "SQL", "HTML/CSS"]
     },
     {
       "name": "AI/ML Technologies",
       "level": "Expert",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "GPT Models",
-        "Machine Learning",
-        "Natural Language Processing",
-        "Computer Vision",
-        "OCR & Pattern Recognition"
-      ]
+      "keywords": ["GPT Models", "Machine Learning", "Natural Language Processing", "Computer Vision", "OCR & Pattern Recognition"]
     },
     {
       "name": "Cloud & Platforms",
       "level": "Advanced",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "Microsoft Azure",
-        "Azure Cognitive Services",
-        "Form Recognizer",
-        "Vision AI"
-      ]
+      "keywords": ["Microsoft Azure", "Azure Cognitive Services", "Form Recognizer", "Vision AI"]
     }
   ],
   "languages": [
@@ -184,23 +158,12 @@
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Machine Learning",
-        "Deep Learning",
-        "Natural Language Processing",
-        "Computer Vision",
-        "Data Science"
-      ]
+      "keywords": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "Data Science"]
     },
     {
       "name": "Technology",
       "icon": "fa-solid fa-laptop-code",
-      "keywords": [
-        "Cloud Computing",
-        "Software Development",
-        "Automation",
-        "API Development"
-      ]
+      "keywords": ["Cloud Computing", "Software Development", "Automation", "API Development"]
     }
   ],
   "references": [
@@ -229,13 +192,9 @@
       "url": "https://github.com/ashutoshsom1"
     },
     {
-      "name": "Intelligent Invoice Management Platform", 
+      "name": "Intelligent Invoice Management Platform",
       "summary": "Advanced system for invoice classification, OCR processing, and automated data extraction with high accuracy rates in differentiating handwritten vs. machine-printed content.",
-      "highlights": [
-        "Robust classification model for invoice types",
-        "OCR and pattern matching integration",
-        "High accuracy in data validation"
-      ],
+      "highlights": ["Robust classification model for invoice types", "OCR and pattern matching integration", "High accuracy in data validation"],
       "startDate": "2023-06-01",
       "endDate": "2024-06-01",
       "url": "https://github.com/ashutoshsom1"
@@ -243,11 +202,7 @@
     {
       "name": "Azure Cognitive Services Integration",
       "summary": "Developed intelligent document processing solutions using Form Recognizer and Vision AI for enhanced automation and data extraction from diverse forms and documents.",
-      "highlights": [
-        "Form Recognizer implementation",
-        "Vision AI integration",
-        "Automated document processing workflows"
-      ],
+      "highlights": ["Form Recognizer implementation", "Vision AI integration", "Automated document processing workflows"],
       "startDate": "2023-03-01",
       "endDate": "2024-03-01",
       "url": "https://github.com/ashutoshsom1"

@@ -31,22 +31,26 @@ Certified as an **Anthropic Claude Certified Architect (Foundations)** and **Mic
 ## 🚀 Core Architectural Competencies
 
 ### 🦾 Autonomous Agentic Workflows & Tool Orchestration
+
 - **Stateful Multi-Agent Graphs:** Architecting complex multi-agent state machines with **LangGraph**, **Semantic Kernel**, and **AutoGen**, utilizing cyclic graphs, persistent PostgreSQL/Redis checkpointing, and loop-bound safety guards.
 - **Model Context Protocol (MCP) & Tool Calling:** Implementing strict Pydantic V2 tool-calling schemas, dynamic function calling, and Anthropic Claude Agent SDK integration for automated enterprise workflows.
 - **Human-in-the-Loop (HITL) Governance:** Engineering deterministic approval gates and webhook notifications (e.g. Slack/Teams) before executing sensitive business logic or infrastructure changes.
 
 ### 🔍 Production Hybrid RAG & Vector Retrieval
+
 - **Advanced Retrieval Pipelines:** Engineering enterprise-scale RAG systems combining **Dense Semantic Search** and **Sparse Lexical Search (BM25)** via **Reciprocal Rank Fusion (RRF with $k=60$)** over 100,000+ complex corporate documents.
 - **Deep Cross-Encoder Reranking:** Leveraging cross-encoders (`bge-reranker-large`, Cohere Rerank) to elevate Context Precision from 68% to **>94%**.
 - **Vector Search Infrastructure:** Managing high-cardinality metadata filtering and indexing across **Azure AI Search**, **Qdrant**, and **pgvector**.
 - **Automated RAG Evaluation:** Benchmarking retrieval faithfulness, context precision, and answer relevance using **Ragas** and custom LLM-as-a-Judge evaluators.
 
 ### 🏢 Enterprise Copilots & Microsoft Ecosystem Integration
+
 - **Enterprise Copilot Ecosystem:** Designed and deployed multi-turn conversational copilots integrated into **Microsoft Teams, SharePoint, and Dynamics 365** serving 5,000+ enterprise users with a 95% satisfaction rate.
 - **Secure Data Connectors:** Built enterprise ingestion pipelines using **Microsoft Graph API, REST, and GraphQL** to ground LLM reasoning across siloed systems with strict Role-Based Access Control (RBAC).
 - **Enterprise Guardrails & Privacy:** Enforcing zero-trust network isolation, private endpoints, automated PII masking, and prompt-injection firewalls.
 
 ### ⚡ AI Lifecycle, Latency & Cloud FinOps Optimization
+
 - **Token Economics & FinOps:** Developed cost break-even models (Pay-As-You-Go vs Provisioned Throughput Units / PTUs) and implemented semantic vector caching in Redis to slash API token spend by **42%**.
 - **Serving & Throughput Optimization:** Profiling inference pipelines for low Time-to-First-Token (TTFT) and high token generation throughput, driving a **40% reduction in P99 latency**.
 - **Modular Accelerators:** Created reusable Python middleware for exponential backoff, rate-limiting, and error recovery, **accelerating cross-team AI feature delivery by 60%**.
