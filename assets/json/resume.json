@@ -194,18 +194,19 @@
   ],
   "projects": [
     {
-      "name": "Enterprise Cognitive RAG Platform (DocuMind AI)",
-      "summary": "Designed an enterprise knowledge retrieval engine combining Dense Vector Search and BM25 Sparse Search via Reciprocal Rank Fusion (RRF) and Cross-Encoder reranking. Integrated Redis semantic caching to deliver sub-500ms P99 latency and slash token costs by 42%. Evaluated via Ragas with 96.4% faithfulness.",
+      "name": "Enterprise Cognitive Hybrid RAG Platform",
+      "summary": "Enterprise knowledge engine combining Qdrant Dense Vector Search and BM25 Sparse Search via Reciprocal Rank Fusion (RRF, k=60) and Cross-Encoder reranking (bge-reranker-large). Integrated Redis semantic caching to deliver sub-22ms cache hits, 442ms P99 latency, and 42% cost savings. Published to GitHub Container Registry (ghcr.io).",
       "highlights": [
         "Dense + BM25 Sparse Hybrid Search",
-        "Reciprocal Rank Fusion (RRF)",
-        "Cross-Encoder Reranking",
-        "Redis Semantic Caching (42% cost reduction)",
-        "96.4% faithfulness via Ragas"
+        "Reciprocal Rank Fusion (RRF, k=60)",
+        "Deep Cross-Encoder Reranking (Context Precision 94.2%)",
+        "Redis Semantic Vector Caching (<22ms cache hits, 42% cost reduction)",
+        "Packaged on GHCR: docker pull ghcr.io/ashutoshsom1/enterprise-hybrid-rag-gateway:latest",
+        "Evaluated via Ragas framework with 96.4% faithfulness"
       ],
       "startDate": "2024-01-01",
-      "endDate": "2024-06-01",
-      "url": "https://ashutoshsom1.github.io/projects/"
+      "endDate": "Present",
+      "url": "https://github.com/ashutoshsom1/Enterprise-Cognitive-Hybrid-RAG-Platform"
     },
     {
       "name": "Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)",

@@ -38,10 +38,10 @@ Certified as an **Anthropic Claude Certified Architect (Foundations)** and **Mic
 
 ### 🔍 Production Hybrid RAG & Vector Retrieval
 
-- **Advanced Retrieval Pipelines:** Engineering enterprise-scale RAG systems combining **Dense Semantic Search** and **Sparse Lexical Search (BM25)** via **Reciprocal Rank Fusion (RRF with $k=60$)** over 100,000+ complex corporate documents.
-- **Deep Cross-Encoder Reranking:** Leveraging cross-encoders (`bge-reranker-large`, Cohere Rerank) to elevate Context Precision from 68% to **>94%**.
+- **Flagship Open-Source Platform:** Architected and open-sourced the [**Enterprise Cognitive Hybrid RAG Platform**](https://github.com/ashutoshsom1/Enterprise-Cognitive-Hybrid-RAG-Platform) combining **Dense Semantic Search (Qdrant HNSW)** and **Sparse Lexical Search (BM25)** via **Reciprocal Rank Fusion (RRF with $k=60$)** over 100,000+ complex corporate documents.
+- **Deep Cross-Encoder Reranking:** Leveraging cross-encoders (`bge-reranker-large`) with all-to-all token attention to elevate Context Precision from 68% to **94.2%** with **96.4% Faithfulness** (validated via Ragas).
+- **Sub-25ms Semantic Caching & Containerization:** Integrated Redis semantic vector caching to achieve sub-22ms cache-hit latency and a 42% token cost reduction, packaged as an enterprise container on GitHub Container Registry: `ghcr.io/ashutoshsom1/enterprise-hybrid-rag-gateway:latest`.
 - **Vector Search Infrastructure:** Managing high-cardinality metadata filtering and indexing across **Azure AI Search**, **Qdrant**, and **pgvector**.
-- **Automated RAG Evaluation:** Benchmarking retrieval faithfulness, context precision, and answer relevance using **Ragas** and custom LLM-as-a-Judge evaluators.
 
 ### 🏢 Enterprise Copilots & Microsoft Ecosystem Integration
 
