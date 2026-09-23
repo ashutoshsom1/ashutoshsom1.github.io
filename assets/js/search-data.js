@@ -109,7 +109,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-enterprise-cognitive-hybrid-rag-platform",
           title: 'Enterprise Cognitive Hybrid RAG Platform',
-          description: "High-throughput enterprise knowledge engine combining Dense Vector &amp; BM25 Sparse Search with Cross-Encoder reranking and sub-500ms P99 latency.",
+          description: "High-throughput enterprise knowledge engine combining Dense Vector &amp; BM25 Sparse Search with Cross-Encoder reranking, Redis semantic cache, and sub-500ms P99 latency.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-multi-agent-autonomous-incident-triage-engine",
