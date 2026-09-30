@@ -112,9 +112,9 @@ ninja.data = [{
           description: "High-throughput enterprise knowledge engine combining Dense Vector &amp; BM25 Sparse Search with Cross-Encoder reranking, Redis semantic cache, and sub-500ms P99 latency.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-multi-agent-autonomous-incident-triage-engine",
-          title: 'Multi-Agent Autonomous Incident Triage Engine',
-          description: "Fault-tolerant multi-agent state machine using LangGraph and Model Context Protocol (MCP) with Human-in-the-Loop Slack approval gates.",
+            },},{id: "projects-multi-agent-autonomous-incident-triage-engine-incidentops-ai",
+          title: 'Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)',
+          description: "Production-grade fault-tolerant multi-agent state machine using LangGraph, Claude 3.5 Sonnet, and Model Context Protocol (MCP) with Human-in-the-Loop Slack approval gates.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-enterprise-microsoft-365-copilot-amp-dynamics-ai-ecosystem",
