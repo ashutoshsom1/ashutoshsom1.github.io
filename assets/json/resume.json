@@ -210,16 +210,18 @@
     },
     {
       "name": "Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)",
-      "summary": "Built a fault-tolerant multi-agent state machine in Python & LangGraph with PostgreSQL state persistence. Orchestrated specialized diagnostic agents with tool-calling schemas and a Human-in-the-Loop Slack approval gate for automated cloud alert diagnosis.",
+      "summary": "Built a fault-tolerant autonomous incident response engine using LangGraph StateGraph, Claude 3.5 Sonnet, and Model Context Protocol (MCP). Slashed MTTT from 38.4m to 88.2s with 94.2% diagnostic accuracy and 100% cryptographic Slack HITL remediation gating.",
       "highlights": [
-        "Multi-Agent LangGraph StateGraph Architecture",
-        "PostgreSQL State Persistence & Checkpointing",
-        "Dynamic Tool Calling via Model Context Protocol (MCP)",
-        "Human-in-the-Loop Slack Approval Gate"
+        "Multi-Agent LangGraph StateGraph with deterministic loop bounds (max iterations = 3)",
+        "PostgreSQL State Persistence & Checkpointing for mid-flight container recovery",
+        "Model Context Protocol (MCP) decoupled tool calling (Loki, Prometheus, GitHub, K8s)",
+        "Cryptographic Human-in-the-Loop Slack gate with HMAC-SHA256 and anti-replay protection",
+        "Slashed Mean Time to Triage from 38.4 minutes to 88.2 seconds (~26x speedup)",
+        "Automated CI test matrix with 25 unit and integration tests (100% pass rate)"
       ],
       "startDate": "2024-06-01",
-      "endDate": "2024-11-01",
-      "url": "https://ashutoshsom1.github.io/projects/"
+      "endDate": "Present",
+      "url": "https://github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine"
     }
   ]
 }

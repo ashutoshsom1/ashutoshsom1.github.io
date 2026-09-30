@@ -10,11 +10,22 @@ related_posts: false
 
 # Why Enterprise Production AI Needs Deterministic LangGraph StateGraphs
 
+<div class="row mb-3">
+  <div class="col-12 d-flex flex-wrap gap-2">
+    <a href="https://github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i> IncidentOps AI Repository
+    </a>
+    <a href="/projects/2_project/" class="btn btn-sm btn-outline-info">
+      <i class="fa-solid fa-diagram-project"></i> Project Architecture Deep-Dive
+    </a>
+  </div>
+</div>
+
 In the generative AI ecosystem, the gap between an impressive weekend demo and a reliable production system is massive.
 
 The industry began with single-prompt zero-shot generation, evolved to basic chain-of-thought, and then adopted **ReAct (Reason + Act)** agent loops. However, in enterprise environments serving thousands of concurrent users, naive ReAct loops quickly collapse.
 
-Here is an architectural breakdown of why **LangGraph StateGraphs** are mandatory for mission-critical enterprise workflows.
+Here is an architectural breakdown of why **LangGraph StateGraphs** are mandatory for mission-critical enterprise workflows, grounded in our open-source [**Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)**](https://github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine).
 
 ---
 

@@ -32,6 +32,7 @@ Certified as an **Anthropic Claude Certified Architect (Foundations)** and **Mic
 
 ### 🦾 Autonomous Agentic Workflows & Tool Orchestration
 
+- **Flagship Autonomous SRE Engine:** Architected and open-sourced the [**Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)**](https://github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine), coupling **Claude 3.5 Sonnet** and the **Model Context Protocol (MCP)** with **LangGraph StateGraph** to slash Mean Time to Triage (MTTT) from 38.4 minutes to **88.2 seconds** with **94.2% diagnostic accuracy** and **100% cryptographic Slack HITL gating**.
 - **Stateful Multi-Agent Graphs:** Architecting complex multi-agent state machines with **LangGraph**, **Semantic Kernel**, and **AutoGen**, utilizing cyclic graphs, persistent PostgreSQL/Redis checkpointing, and loop-bound safety guards.
 - **Model Context Protocol (MCP) & Tool Calling:** Implementing strict Pydantic V2 tool-calling schemas, dynamic function calling, and Anthropic Claude Agent SDK integration for automated enterprise workflows.
 - **Human-in-the-Loop (HITL) Governance:** Engineering deterministic approval gates and webhook notifications (e.g. Slack/Teams) before executing sensitive business logic or infrastructure changes.

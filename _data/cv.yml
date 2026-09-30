@@ -123,12 +123,15 @@
         - "Packaged as a multi-stage production container published to GitHub Container Registry: <code>docker pull ghcr.io/ashutoshsom1/enterprise-hybrid-rag-gateway:latest</code>."
         - "Open-source codebase: <a href='https://github.com/ashutoshsom1/Enterprise-Cognitive-Hybrid-RAG-Platform'>github.com/ashutoshsom1/Enterprise-Cognitive-Hybrid-RAG-Platform</a>."
 
-    - title: Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)
-      institution: Production Architecture
-      year: 2024
+    - title: "Multi-Agent Autonomous Incident Triage Engine (IncidentOps AI)"
+      institution: "Open-Source & SRE Cockpit"
+      year: 2024 – 2026
       description:
-        - Built a fault-tolerant multi-agent state machine in Python & LangGraph with PostgreSQL state persistence.
-        - Orchestrated specialized diagnostic agents with tool-calling schemas and a Human-in-the-Loop Slack approval gate for automated cloud alert diagnosis and mitigation.
+        - "Architected a fault-tolerant multi-agent state machine in Python and LangGraph with PostgreSQL state persistence and deterministic iteration loop guards."
+        - "Orchestrated concurrent diagnostic worker agents (Logs via Loki, Metrics via Prometheus, and Codebase via GitHub) using Anthropic's Model Context Protocol (MCP)."
+        - "Engineered a cryptographic Human-in-the-Loop (HITL) Slack approval gate with HMAC-SHA256 signature verification and anti-replay protection, eliminating unauthorized destructive scripts."
+        - "Slashed Mean Time to Triage (MTTT) from 38.4 minutes to 88.2 seconds (~26x speedup) with 94.2% diagnostic accuracy across production alerts."
+        - "Open-source codebase: <a href='https://github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine'>github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine</a>."
 
 - title: Education
   type: time_table
