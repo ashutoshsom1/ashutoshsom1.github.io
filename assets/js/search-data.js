@@ -122,6 +122,11 @@ ninja.data = [{
           description: "Production conversational copilot platform integrated across Microsoft Teams, SharePoint, and Dynamics 365 serving 5,000+ enterprise users with a 95% resolution rate.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-github-agent-ai-octoagent-autonomous-open-source-intelligence-amp-contribution-agent",
+          title: 'GitHub Agent AI (OctoAgent) – Autonomous Open-Source Intelligence &amp;amp; Contribution Agent',
+          description: "Asynchronous developer agent powered by Model Context Protocol (MCP 2.0), Claude 3.5 Sonnet / OpenAI reasoning, Pydantic V2, and multi-factor repository scoring.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
