@@ -133,6 +133,16 @@
         - "Slashed Mean Time to Triage (MTTT) from 38.4 minutes to 88.2 seconds (~26x speedup) with 94.2% diagnostic accuracy across production alerts."
         - "Open-source codebase: <a href='https://github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine'>github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine</a>."
 
+    - title: "GitHub Agent AI (OctoAgent) – Autonomous Open-Source Intelligence & Contribution Agent"
+      institution: "Open-Source & MCP Server"
+      year: 2024 – 2026
+      description:
+        - "Engineered an autonomous open-source intelligence and PR planning agent equipped with Model Context Protocol (MCP 2.0) server integration for Claude Desktop and Cursor."
+        - "Architected a dual-engine reasoning pipeline supporting Anthropic Claude 3.5 Sonnet, OpenAI GPT-4o, and an offline deterministic heuristic fallback for zero-dependency execution."
+        - "Implemented asynchronous GitHub REST API client with exponential backoff, connection pooling, and proactive rate-limit governance, processing repository analysis ~350x faster than manual triage."
+        - "Designed multi-factor repository scoring algorithm (0–100) assessing maintenance velocity, issue tractability, and architectural complexity to recommend optimal contribution paths."
+        - "Open-source codebase: <a href='https://github.com/ashutoshsom1/Github-Agent'>github.com/ashutoshsom1/Github-Agent</a>."
+
 - title: Education
   type: time_table
   contents:

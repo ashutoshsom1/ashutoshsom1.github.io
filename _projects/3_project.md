@@ -3,7 +3,7 @@ layout: page
 title: Enterprise Microsoft 365 Copilot & Dynamics AI Ecosystem
 description: Production conversational copilot platform integrated across Microsoft Teams, SharePoint, and Dynamics 365 serving 5,000+ enterprise users with a 95% resolution rate.
 img: assets/img/3.jpg
-importance: 3
+importance: 4
 category: work
 github: https://github.com/ashutoshsom1
 ---

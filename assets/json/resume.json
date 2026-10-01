@@ -222,6 +222,21 @@
       "startDate": "2024-06-01",
       "endDate": "Present",
       "url": "https://github.com/ashutoshsom1/Multi-Agent-Autonomous-Incident-Triage-Engine"
+    },
+    {
+      "name": "GitHub Agent AI (OctoAgent) – Autonomous Repo Intelligence & Contribution Agent",
+      "summary": "Engineered an autonomous open-source intelligence and PR planning agent equipped with Model Context Protocol (MCP 2.0) server integration for Claude Desktop and Cursor. Designed dual-engine reasoning (Claude 3.5 Sonnet / OpenAI / Heuristic), async rate-limiting client with connection pooling, and multi-factor repository scoring (0-100) accelerating triage by ~350x.",
+      "highlights": [
+        "Model Context Protocol (MCP 2.0) server exposing repository search, architectural scoring, and PR roadmap generation over stdio",
+        "Multi-Tier reasoning engine integrating Anthropic Claude 3.5 Sonnet, OpenAI, and deterministic heuristic fallback",
+        "Asynchronous GitHub REST API client with connection pooling, token-bucket rate limiting, and exponential backoff",
+        "Multi-factor repository scoring algorithm (0-100) across documentation, issue tractability, maintainer velocity, and governance",
+        "Rich terminal CLI with instant tables, markdown briefs, and automated HTML email dispatch",
+        "Automated GitHub Actions CI test suite verifying Pydantic V2 models, scoring logic, and MCP tools with 100% pass rate"
+      ],
+      "startDate": "2024-03-01",
+      "endDate": "Present",
+      "url": "https://github.com/ashutoshsom1/Github-Agent"
     }
   ]
 }
